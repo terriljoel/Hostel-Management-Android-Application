@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hostelmanagementproject">
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MaiUpdateDeleteActivity"></activity>
+        <activity
+            android:name=".MaiDisplayActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".MaiInsertActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".M2Activity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".DispMessActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".C2Activity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".C1Activity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".MovUpdateDeleteActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".MovDisplayActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".MovInsertActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".MActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".ContactinfoActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".SettingActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".MessActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".MainPageActivity"
+            android:label="Hostel Management" />
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hostel Management project</string>
+    <string name="title_activity_mov_display">MovDisplayActivity</string>
+</resources>
